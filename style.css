@@ -1,0 +1,47 @@
+
+.body{
+    background-color: cornsilk;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.array-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.array-bar {
+  padding: 10px 5px 5px 0px;
+  border: 1px solid black;
+  padding: none;
+  width: 10px;
+  height: 500px;
+  background-color: lightblue;
+
+}
+
+.button-container {
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
